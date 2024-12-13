@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "REACT_APP_BUILD_DATE=$(date +\"%Y-%m-%d\") REACT_APP_BUILD_TIME=$(date +\"%H:%M:%S\") react-scripts start",
+    "build": "REACT_APP_BUILD_DATE=$(date +\"%Y-%m-%d\") REACT_APP_BUILD_TIME=$(date +\"%H:%M:%S\") react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

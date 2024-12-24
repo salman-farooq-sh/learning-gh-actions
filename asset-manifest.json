@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/learning-gh-actions/static/css/main.9fa65aaf.css",
+    "main.js": "/learning-gh-actions/static/js/main.d93f8d34.js",
+    "static/media/logo.svg": "/learning-gh-actions/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/learning-gh-actions/index.html",
+    "main.9fa65aaf.css.map": "/learning-gh-actions/static/css/main.9fa65aaf.css.map",
+    "main.d93f8d34.js.map": "/learning-gh-actions/static/js/main.d93f8d34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fa65aaf.css",
+    "static/js/main.d93f8d34.js"
+  ]
+}
